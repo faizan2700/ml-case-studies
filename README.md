@@ -55,3 +55,16 @@ npm install
 npm run dev
 # Open http://localhost:3000
 ```
+
+## Analytics and Search Console
+
+Set these environment variables in Vercel under Project Settings -> Environment Variables:
+
+```txt
+NEXT_PUBLIC_SITE_URL=https://www.oharauniversity.com
+NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION=your-google-search-console-token
+```
+
+`NEXT_PUBLIC_GA_MEASUREMENT_ID` comes from Google Analytics 4.
+`NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` comes from Google Search Console when you choose HTML tag verification.
